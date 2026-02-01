@@ -1,0 +1,64 @@
+name: Documentation Issue
+description: Report missing, incorrect, or unclear documentation
+title: "[Docs]: "
+labels: ["documentation"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help us improve our documentation! Please describe the issue below.
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Issue Type
+      description: What type of documentation issue is this?
+      options:
+        - Missing documentation
+        - Incorrect information
+        - Unclear or confusing
+        - Outdated content
+        - Broken links
+        - Typo or grammar
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: location
+    attributes:
+      label: Documentation Location
+      description: Where is the documentation issue located?
+      placeholder: |
+        - URL or file path
+        - Section or heading
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Issue Description
+      description: Describe the documentation issue.
+      placeholder: Explain what's wrong or missing...
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested Improvement
+      description: How should the documentation be improved?
+      placeholder: Your suggestion for better documentation...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      options:
+        - label: I would be willing to submit a PR to fix this issue
+          required: false
