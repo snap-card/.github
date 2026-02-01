@@ -38,19 +38,19 @@ Snap Card is a full-stack application ecosystem featuring web and mobile clients
                         ▼
 ┌─────────────────────────────────────────────────────────┐
 │                   BFF Layer                             │
-│   • Session Management  • Rate Limiting  • Caching     │
+│   • Session Management  • Rate Limiting  • Caching      │
 └────────────────────────┬────────────────────────────────┘
                          ▼
 ┌─────────────────────────────────────────────────────────┐
 │                   API Layer                             │
-│   • Business Logic  • Authentication  • Data Access    │
+│   • Business Logic  • Authentication  • Data Access     │
 └────────────────────────┬────────────────────────────────┘
                          ▼
 ┌─────────────────────────────────────────────────────────┐
 │                   Data Layer                            │
-│   ┌──────────┐   ┌──────────┐   ┌──────────┐          │
-│   │ Postgres │   │ DynamoDB │   │  Redis   │          │
-│   └──────────┘   └──────────┘   └──────────┘          │
+│   ┌──────────┐   ┌──────────┐   ┌──────────┐            │
+│   │ Postgres │   │ DynamoDB │   │  Redis   │            │
+│   └──────────┘   └──────────┘   └──────────┘            │
 └─────────────────────────────────────────────────────────┘
 ```
 
