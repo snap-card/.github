@@ -15,8 +15,8 @@ Snap Card is a full-stack application ecosystem featuring web and mobile clients
 
 ### Frontend
 - **Web**: Next.js, React, TailwindCSS
-- **iOS**: SwiftUI (MVVM)
-- **Mobile**: Flutter (Dart)
+- **iOS**: React Native
+- **Mobile**: React Native
 
 ### Infrastructure
 - **Cloud**: AWS (EKS, RDS, CloudFront, S3)
